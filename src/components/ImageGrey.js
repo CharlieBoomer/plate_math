@@ -14,7 +14,7 @@ const ImageGrey = ({source, alternate, text , isSelected, height, width, onSelec
     return ( 
         <div className='container' onClick={() =>onSelected(value)}>
             <img src={source} alt={alternate} style={value !== isSelected ? {filter: "grayscale(100%)"} : {filter: "grayscale(0%)"} } height ={height} width={width} />
-            <figcaption>{text}</figcaption>
+            <figcaption className='text-center'>{text}</figcaption>
         </div>
      );
 }

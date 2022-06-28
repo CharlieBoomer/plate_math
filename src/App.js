@@ -15,7 +15,7 @@ function App() {
   return (
     <Container bg='dark'>
        <NaviBar/>
-        <CalcuPage   />
+        <CalcuPage/>
     </Container>
 
   );
