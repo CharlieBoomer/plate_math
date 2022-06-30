@@ -22,7 +22,7 @@ const LiftExplorer = () => {
                             </ul>
 
                         </Card.Text>
-                        <Button variant="secondary">Learn More</Button>
+                        <Button variant="secondary" href="https://stronglifts.com/bench-press/">Learn More</Button>
                     </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }} className='col mx-3 p-2'>
@@ -37,7 +37,7 @@ const LiftExplorer = () => {
                                 <li>Quadriceps</li>
                             </ul>
                         </Card.Text>
-                        <Button variant="secondary">Learn More</Button>
+                        <Button variant="secondary" href="https://stronglifts.com/squat/">Learn More</Button>
                     </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }} className='col mx-3 p-2'>
@@ -53,7 +53,7 @@ const LiftExplorer = () => {
                             </ul>
 
                         </Card.Text>
-                        <Button variant="secondary">Learn More</Button>
+                        <Button variant="secondary" href="https://stronglifts.com/deadlift/">Learn More</Button>
                     </Card.Body>
             </Card>
             
