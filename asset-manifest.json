@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/plate-math/static/css/main.bf29e772.css",
-    "main.js": "/plate-math/static/js/main.57fd1c11.js",
-    "static/js/787.2acb2513.chunk.js": "/plate-math/static/js/787.2acb2513.chunk.js",
-    "static/media/Mirafit-M1-Squat-and-Dip-Rack-in-use.jpg": "/plate-math/static/media/Mirafit-M1-Squat-and-Dip-Rack-in-use.3c0a814b04947a2989bb.jpg",
-    "static/media/BenchPress-1366163679.jpg": "/plate-math/static/media/BenchPress-1366163679.3a45265d4045b8aeddc0.jpg",
-    "static/media/professional-deadlift-platform.jpg": "/plate-math/static/media/professional-deadlift-platform.77635ab33fd565d2ea03.jpg",
-    "static/media/bench-crop.jpg": "/plate-math/static/media/bench-crop.c8e2441f056744077bfa.jpg",
-    "static/media/Deadlift-Crop.jpg": "/plate-math/static/media/Deadlift-Crop.364c53f9de5b2fb6e401.jpg",
-    "static/media/squat-cropped.jpg": "/plate-math/static/media/squat-cropped.d17bcd3e13d0fea59d9c.jpg",
-    "index.html": "/plate-math/index.html",
-    "main.bf29e772.css.map": "/plate-math/static/css/main.bf29e772.css.map",
-    "main.57fd1c11.js.map": "/plate-math/static/js/main.57fd1c11.js.map",
-    "787.2acb2513.chunk.js.map": "/plate-math/static/js/787.2acb2513.chunk.js.map"
+    "main.css": "/plate_math/static/css/main.bf29e772.css",
+    "main.js": "/plate_math/static/js/main.93f55468.js",
+    "static/js/787.2acb2513.chunk.js": "/plate_math/static/js/787.2acb2513.chunk.js",
+    "static/media/Mirafit-M1-Squat-and-Dip-Rack-in-use.jpg": "/plate_math/static/media/Mirafit-M1-Squat-and-Dip-Rack-in-use.3c0a814b04947a2989bb.jpg",
+    "static/media/BenchPress-1366163679.jpg": "/plate_math/static/media/BenchPress-1366163679.3a45265d4045b8aeddc0.jpg",
+    "static/media/professional-deadlift-platform.jpg": "/plate_math/static/media/professional-deadlift-platform.77635ab33fd565d2ea03.jpg",
+    "static/media/bench-crop.jpg": "/plate_math/static/media/bench-crop.c8e2441f056744077bfa.jpg",
+    "static/media/Deadlift-Crop.jpg": "/plate_math/static/media/Deadlift-Crop.364c53f9de5b2fb6e401.jpg",
+    "static/media/squat-cropped.jpg": "/plate_math/static/media/squat-cropped.d17bcd3e13d0fea59d9c.jpg",
+    "index.html": "/plate_math/index.html",
+    "main.bf29e772.css.map": "/plate_math/static/css/main.bf29e772.css.map",
+    "main.93f55468.js.map": "/plate_math/static/js/main.93f55468.js.map",
+    "787.2acb2513.chunk.js.map": "/plate_math/static/js/787.2acb2513.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf29e772.css",
-    "static/js/main.57fd1c11.js"
+    "static/js/main.93f55468.js"
   ]
 }
