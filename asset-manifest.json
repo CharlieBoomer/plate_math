@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf29e772.css",
+    "main.js": "/static/js/main.35387079.js",
+    "static/js/787.2acb2513.chunk.js": "/static/js/787.2acb2513.chunk.js",
+    "static/media/Mirafit-M1-Squat-and-Dip-Rack-in-use.jpg": "/static/media/Mirafit-M1-Squat-and-Dip-Rack-in-use.3c0a814b04947a2989bb.jpg",
+    "static/media/BenchPress-1366163679.jpg": "/static/media/BenchPress-1366163679.3a45265d4045b8aeddc0.jpg",
+    "static/media/professional-deadlift-platform.jpg": "/static/media/professional-deadlift-platform.77635ab33fd565d2ea03.jpg",
+    "static/media/bench-crop.jpg": "/static/media/bench-crop.c8e2441f056744077bfa.jpg",
+    "static/media/Deadlift-Crop.jpg": "/static/media/Deadlift-Crop.364c53f9de5b2fb6e401.jpg",
+    "static/media/squat-cropped.jpg": "/static/media/squat-cropped.d17bcd3e13d0fea59d9c.jpg",
+    "index.html": "/index.html",
+    "main.bf29e772.css.map": "/static/css/main.bf29e772.css.map",
+    "main.35387079.js.map": "/static/js/main.35387079.js.map",
+    "787.2acb2513.chunk.js.map": "/static/js/787.2acb2513.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf29e772.css",
+    "static/js/main.35387079.js"
+  ]
+}
