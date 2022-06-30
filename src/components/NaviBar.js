@@ -8,9 +8,9 @@ import Nav from 'react-bootstrap/Nav'
 const NaviBar = () => {
     return ( 
         <>
-  <Navbar bg="light" sticky='top'>
-  <Container>
-    <Navbar.Brand href="#home">
+  <Navbar bg="primary" sticky='top' style={{borderRadius: "0px 0px 5px 5px"}}>
+  <Container className='d-flex'>
+    <Navbar.Brand href="#top" className=''>
        <img
         src={NLogo}
         
@@ -20,10 +20,13 @@ const NaviBar = () => {
         alt="Plate Math Logo"
       /> 
      </Navbar.Brand>
-     <Nav className="me-auto">
-            <Nav.Link href="#home">SWR Calculator</Nav.Link>
-            <Nav.Link href="#features">Explore</Nav.Link>
-            <Nav.Link href="#pricing">How To Use</Nav.Link>
+     <Nav className="me-auto row flex-fill text-center">
+            {/* <div class="vr"></div> */}
+            <Nav.Link href="#top" className='fs-5 col border-end  border-dark text-secondary'><strong>SWR Calculator</strong></Nav.Link>
+            {/* <div class="vr"></div> */}
+            <Nav.Link href="#explore" className='fs-5 col border-end  border-dark text-secondary'><strong>Explore</strong></Nav.Link>
+            {/* <div class="vr"></div> */}
+            <Nav.Link href="#howTo" className='fs-5 col text-secondary'><strong>How To Use</strong></Nav.Link>
       </Nav>
   </Container>
   </Navbar>
