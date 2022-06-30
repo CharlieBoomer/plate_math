@@ -26,7 +26,8 @@ const NaviBar = () => {
             {/* <div class="vr"></div> */}
             <Nav.Link href="#explore" className='fs-5 col border-end  border-dark text-secondary'><strong>Lift Information</strong></Nav.Link>
             {/* <div class="vr"></div> */}
-            <Nav.Link href="#howTo" className='fs-5 col text-secondary'><strong>How To Use</strong></Nav.Link>
+            <Nav.Link href="#howTo" className='fs-5 col border-dark text-secondary'><strong>How To Use</strong></Nav.Link>
+            <Nav.Link href="#Comments" className='fs-5 col border-dark text-secondary'><strong>Comment</strong></Nav.Link>
       </Nav>
   </Container>
   </Navbar>
