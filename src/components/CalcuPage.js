@@ -12,10 +12,7 @@ const CalcuPage  = ({langauge}) => {
         height: "15px",
         width: '400px'
    }
-   const plateStyle = {
-    height: "90px",
-    width: '10px'
-    }
+
     var weightLoaded = 0;
 
     const instructStyle = {
@@ -36,20 +33,28 @@ const CalcuPage  = ({langauge}) => {
     const [totalWeight, setTotalWeight] = useState(45);
     const [bodyWeight, setBodyWeight] = useState('');
     const [gender, setGender] = useState('Male');
+    
+    const plateStyle = {
+        height: '90px',   //Default height is 90
+        width: '10px'
+        }
 
     const [weightList, setWeight] = useState([
         <div key = {0}className='bg-secondary mx-1' style={barbellStyle}  >&nbsp;</div>
     ]);
 
     const onAddBtnClick = () => {
+        lastAdded.push(weightCase(value));
+        weightLoaded += weightCase(value) * 2;
+        plateStyle.height = weightStyle(weightLoaded / 2);
         weightList.push(<div className="bg-secondary mx-1" key={weightList.length} style={plateStyle} >&nbsp;</div>)
         //setWeight(weightList);
         weightList.unshift(<div className="bg-secondary mx-1" key={weightList.length} style={plateStyle} >&nbsp;</div>)
-        weightLoaded += weightCase(value) * 2;
+        // weightLoaded += weightCase(value) * 2;
         setTotalWeight(totalWeight + weightLoaded);
         console.log({weightLoaded});
         console.log(totalWeight);
-        lastAdded.push(weightCase(value));
+        // lastAdded.push(weightCase(value));
         setWeight([...weightList])
       };
 
@@ -79,6 +84,20 @@ const CalcuPage  = ({langauge}) => {
                 return 45;
             default:
                 return 10;
+        }
+      }
+      function weightStyle(val){
+        switch(val){
+            case 10:
+                return '75px';
+            case 25:
+                return '90px';
+            case 35:
+                return '110px';
+            case 45:
+                return '120px';
+            default:
+                return '90px';
         }
       }
 const Test1 = () =>{
