@@ -6,20 +6,28 @@ import CommentSection from './components/CommentSection';
 
 import CalcuPage from './components/CalcuPage';
 import LiftExplorer from './components/LiftExplorer';
+import { useState } from 'react';
+import LanguageSelect from './components/LanguageSelect';
 
 
 
 
 function App() {
   
-  
+  const[langauge, setLanguage]=useState(false);
+
+  const changeLangauge = (lang)=> {
+    setLanguage(lang);
+  }
+
   return (
     <Container bg='dark'>
-      <NaviBar/>
-      <CalcuPage/>
-      <LiftExplorer/>
-      <HowTo/>
-      <CommentSection/>
+      <LanguageSelect langauge={langauge} changeLangauge={()=>setLanguage(!langauge)}/>
+      <NaviBar langauge={langauge}/>
+      <CalcuPage langauge={langauge}/>
+      <LiftExplorer langauge={langauge}/>
+      <HowTo langauge={langauge}/>
+      <CommentSection langauge={langauge}/>
     </Container>
 
   );

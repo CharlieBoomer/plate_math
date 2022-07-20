@@ -4,56 +4,56 @@ import cardD from './assets/professional-deadlift-platform.jpg'
 import cardS from './assets/Mirafit-M1-Squat-and-Dip-Rack-in-use.jpg'
 import cardB from './assets/BenchPress-1366163679.jpg'
 
-const LiftExplorer = () => {
+const LiftExplorer = ({langauge}) => {
     return ( 
         
         <div className="row b-5 p-5" id="explore">
-            <h2 className='fw-bold text-secondary mb-5 text-center'>The Compound Lifts</h2>
+            <h2 className='fw-bold text-secondary mb-5 text-center'>{langauge?"Составные лифты":'The Compound Lifts'}</h2>
             <Card style={{ width: '18rem' }} className='col mx-3 p-2'>
                 <Card.Img variant="top" src={cardB} />
                     <Card.Body>
-                        <Card.Title className="fs-4 mb-2">The Bench Press</Card.Title>
-                        <Card.Subtitle className="mb-3 text-muted">Upperbody lift</Card.Subtitle>
+                        <Card.Title className="fs-4 mb-2">{langauge?"Жим лежа":'The Bench Press'}</Card.Title>
+                        <Card.Subtitle className="mb-3 text-muted">{langauge?"Подтяжка верхней части тела":'Upperbody lift'}</Card.Subtitle>
                         <Card.Text>
-                            <p>Primary Muscles:</p>
+                            <p>{langauge?"Первичные мышцы:":'Primary Muscles:'}</p>
                             <ul>
-                                <li>Pectoralis</li>
-                                <li>Triceps</li>
+                                <li>{langauge?"грудная мышца":'Pectoralis'}</li>
+                                <li>{langauge?"Трицепс":'Triceps'}</li>
                             </ul>
 
                         </Card.Text>
-                        <Button variant="secondary" href="https://stronglifts.com/bench-press/">Learn More</Button>
+                        <Button variant="secondary" href="https://stronglifts.com/bench-press/">{langauge?"Учить больше":'Learn More'}</Button>
                     </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }} className='col mx-3 p-2'>
                 <Card.Img variant="top" src={cardS} />
                     <Card.Body>
-                        <Card.Title className="fs-4 mb-2">The Squat</Card.Title>
-                        <Card.Subtitle className="mb-3 text-muted">Lowerbody lift</Card.Subtitle>
+                        <Card.Title className="fs-4 mb-2">{langauge?"Приземистый":'The Squat'}</Card.Title>
+                        <Card.Subtitle className="mb-3 text-muted">{langauge?"Подтяжка нижней части тела":'Lowerbody lift'}</Card.Subtitle>
                         <Card.Text>
-                        <p>Primary Muscles:</p>
+                        <p>{langauge?"Первичные мышцы:":'Primary Muscles:'}</p>
                             <ul>
-                                <li>Gluteus maximus</li>
-                                <li>Quadriceps</li>
+                                <li>{langauge?"Большая ягодичная мышца":'Gluteus maximus'}</li>
+                                <li>{langauge?"Квадрицепс":'Quadriceps'}</li>
                             </ul>
                         </Card.Text>
-                        <Button variant="secondary" href="https://stronglifts.com/squat/">Learn More</Button>
+                        <Button variant="secondary" href="https://stronglifts.com/squat/">{langauge?"Учить больше":'Learn More'}</Button>
                     </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }} className='col mx-3 p-2'>
                 <Card.Img variant="top" src={cardD} />
                     <Card.Body>
-                        <Card.Title className="fs-4 mb-2">The Deadlift</Card.Title>
-                        <Card.Subtitle className="mb-3 text-muted">Lowerbody &amp; Back</Card.Subtitle>
+                        <Card.Title className="fs-4 mb-2">{langauge?"Становая тяга":'The Deadlift'}</Card.Title>
+                        <Card.Subtitle className="mb-3 text-muted">{langauge?"Нижняя часть тела и задняя сторона":'Lowerbody &amp; Back'}</Card.Subtitle>
                         <Card.Text>
-                        <p>Primary Muscles:</p>
+                        <p>{langauge?"Первичные мышцы:":'Primary Muscles:'}</p>
                             <ul>
-                                <li>Erector spinae</li>
-                                <li>Gluteus maximus</li>
+                                <li>{langauge?"Выпрямитель позвоночника":'Erector spinae'}</li>
+                                <li>{langauge?"Большая ягодичная мышца":'Gluteus maximus'}</li>
                             </ul>
 
                         </Card.Text>
-                        <Button variant="secondary" href="https://stronglifts.com/deadlift/">Learn More</Button>
+                        <Button variant="secondary" href="https://stronglifts.com/deadlift/">{langauge?"Учить больше":'Learn More'}</Button>
                     </Card.Body>
             </Card>
             

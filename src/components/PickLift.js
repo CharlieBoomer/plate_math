@@ -6,7 +6,7 @@ import Squat from './assets/squat-cropped.jpg'
 import Bench from './assets/bench-crop.jpg'
 import Deadlift from './assets/Deadlift-Crop.jpg'
 
-const PickLift = ({isSelected,onSelected,test1}) => {
+const PickLift = ({isSelected,onSelected,test1,langauge}) => {
     return ( 
         <>
             <Container>
